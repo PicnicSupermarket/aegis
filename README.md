@@ -1,6 +1,6 @@
 # Picnic Decoder Generator
 
-A tool to convert TypeScript interfaces to JSON decoders ![nvie/decoders](https://github.com/nvie/decoders)
+A tool to convert TypeScript interfaces to JSON decoders [nvie/decoders](https://github.com/nvie/decoders)
 
 ## How to use
 
@@ -9,12 +9,15 @@ Just clone the repo if you want to give it a try!
 
 Here are some steps to get you going:
 1) Install dependencies:
+
 `yarn install`
 
 2) Transpile typescript:
+
 `yarn tsc`
 
 3) Run the decoder generator:
+
 `node ./lib/index.js generate --inputPath [INPUT_PATH] --outputFile [OUTPUT_FILE]` 
 
 ## Contributing
