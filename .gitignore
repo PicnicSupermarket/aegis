@@ -1,0 +1,12 @@
+
+# Compiled output
+lib/
+
+# NPM/Yarn stuff
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# Other stuff
+.idea
+.DS_Store

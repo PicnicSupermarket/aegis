@@ -1,0 +1,24 @@
+{
+  "name": "picnic-decoder-generator",
+  "description": "Generates JSON Decoders from TypeScript interfaces",
+  "author": "Picnic Supermarkets",
+  "version": "0.1",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "decoder-generator": "lib/index.js"
+  },
+  "dependencies": {
+    "commander": "^2.19.0",
+    "decoders": "^1.10.6",
+    "typescript": "^3.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18"
+  }
+}
