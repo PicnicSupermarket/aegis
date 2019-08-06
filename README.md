@@ -1,10 +1,10 @@
-# Picnic Decoder Generator
+# 🛡 Aegis
 
-A tool to convert TypeScript interfaces to JSON decoders [nvie/decoders](https://github.com/nvie/decoders)
+A tool to convert TypeScript interfaces to JSON Decoders [nvie/decoders](https://github.com/nvie/decoders)
 
 ## How to use
 
-The `picnic-decoder-generator` is currently in alpha and not yet released to NPM.
+`aegis` is currently in alpha and not yet released to NPM.
 Just clone the repo if you want to give it a try!
 
 Here are some steps to get you going:
