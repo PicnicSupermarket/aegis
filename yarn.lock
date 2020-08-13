@@ -3,34 +3,34 @@
 
 
 "@types/node@^10.12.18":
-  version "10.17.28"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.17.28.tgz#0e36d718a29355ee51cec83b42d921299200f6d9"
-  integrity sha512-dzjES1Egb4c1a89C7lKwQh8pwjYmlOAG9dW1pBgxEk57tMrLnssOfEthz8kdkNaBd7lIqQx7APm5+mZ619IiCQ==
+  version "10.12.18"
+  resolved "https://nexus.global.picnicinternational.com/repository/npm-public/@types/node/-/node-10.12.18.tgz#1d3ca764718915584fcd9f6344621b7672665c67"
+  integrity sha512-fh+pAqt4xRzPfqA6eh3Z2y6fyZavRIumvjhaCL753+TVkGKGhpPeyrJG2JftD0T9q4GF00KjefsQ+PQNDdWQaQ==
 
 commander@^2.19.0:
-  version "2.20.3"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
-  integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
+  version "2.19.0"
+  resolved "https://nexus.global.picnicinternational.com/repository/npm-public/commander/-/commander-2.19.0.tgz#f6198aa84e5b83c46054b94ddedbfed5ee9ff12a"
+  integrity sha512-6tvAOO+D6OENvRAh524Dh9jcfKTYDQAqvqezbCW82xj5X0pSrcpxtvRKHLG0yBY6SD7PSDrJaj+0AiOcKVd1Xg==
 
-debrief@^1.4.0:
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/debrief/-/debrief-1.4.2.tgz#cc86c82e1697df55f3659743a3cb72423e0cf29e"
-  integrity sha512-C5yVhTCAB60BxJFLXCh34GYx6WcA+5aWM8Mm6S4dr78mWoedh2HEvwF7rcxArW7x+tiHdstU1myQCW9mQ1KlcA==
+debrief@^1.2.2:
+  version "1.2.4"
+  resolved "https://nexus.global.picnicinternational.com/repository/npm-public/debrief/-/debrief-1.2.4.tgz#d4d33aaaf7a250906a97b2acc5201e33b6390651"
+  integrity sha512-BPSSNAKid1xWAtaB5IciG5HqVeZz7EYde4BQnDt5qQ5ZABSjAkgQ7FV90bBsUdCLzTVlA446q1MHblht92Bbpw==
 
 decoders@^1.10.6:
-  version "1.22.2"
-  resolved "https://registry.yarnpkg.com/decoders/-/decoders-1.22.2.tgz#f68d3f554b0bd1d2548b337c1ce8798a07bc7797"
-  integrity sha512-zuEIXvJ5Kk0G7PV0gW4i23ElqhSMXo4D0G0Qm2gnNJnrSJn1lU7zykDHJqgEeTyFmXAXnAXqWe7wc9N8rK+d4w==
+  version "1.10.6"
+  resolved "https://nexus.global.picnicinternational.com/repository/npm-public/decoders/-/decoders-1.10.6.tgz#5e2bf80378ffad9f3fb37613f352615c04afe094"
+  integrity sha512-WvtSVy7UVUHHmWbd6xNS8F30nlXme6d4Ha8rdSXm5lNIfXJ1PJhmdq2M6RPmudtAG6I8SgGMawPL+DxURf5PzQ==
   dependencies:
-    debrief "^1.4.0"
-    lemons "^1.4.0"
+    debrief "^1.2.2"
+    lemons "^1.3.1"
 
-lemons@^1.4.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/lemons/-/lemons-1.6.0.tgz#49c187e08f9675a1ef3e0f077b4192805531d1bf"
-  integrity sha512-nMnKQjqWp2G3odsHtwZD//WStAYnqCA6bM3JXLTLsQ1Mwkj2iLuaNQTJ6axt7wGqrZHMSt6tKDlHdjjJt9Cgxg==
+lemons@^1.3.1:
+  version "1.3.1"
+  resolved "https://nexus.global.picnicinternational.com/repository/npm-public/lemons/-/lemons-1.3.1.tgz#c1415d05f6ab5321418d3f472819e4ba1ffcfb29"
+  integrity sha512-y33wVNr5+4lZV0cen9JJgrqxXfCmjvVrfOqmy07boz07EN8qy371k6thpkHaLjvlruDNkvOfyIoDNN32xS1PHw==
 
 typescript@^3.2.2:
-  version "3.9.7"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"
-  integrity sha512-BLbiRkiBzAwsjut4x/dsibSTB6yWpwT5qWmC2OfuCg3GgVQCSgMs4vEctYPhsaGtd0AeuuHMkjZ2h2WG8MSzRw==
+  version "3.2.2"
+  resolved "https://nexus.global.picnicinternational.com/repository/npm-public/typescript/-/typescript-3.2.2.tgz#fe8101c46aa123f8353523ebdcf5730c2ae493e5"
+  integrity sha512-VCj5UiSyHBjwfYacmDuc/NOk4QQixbE+Wn7MFJuS0nRuPQbof132Pw4u53dm264O8LPc2MVsc7RJNml5szurkg==
