@@ -1,6 +1,7 @@
 
 # Compiled output
 lib/
+example.ts
 
 # NPM/Yarn stuff
 node_modules/
