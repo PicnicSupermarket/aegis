@@ -28,7 +28,18 @@ An example of this can be found in the [`example`](./example) directory. The cor
 
 `node ./lib/index.js generate --inputPath ./example --outputFile example.ts`
 
-After running this command, you will be greeted with an `example.ts` file in the root of this repository, containing the generated decoders
+After running this command, you will be greeted with an `example.ts` file in the root of this repository, containing the generated decoders.
+
+To use the decoder, you must create a guard using the `decoders` package as shown below:
+
+```ts
+import { oneTypeDecoder } from "./example";
+import { guard } from "decoders";
+
+const checker = guard(oneTypeDecoder)
+const data = { /* your data following the oneTypeDecoder definition */ }
+const _ = checker(data); // if data is not following the oneTypeDecoder definition, this will throw an error
+```
 
 ## Contributing
 
