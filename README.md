@@ -36,8 +36,8 @@ To use the decoder, you must create a guard using the `decoders` package as show
 import { oneTypeDecoder } from "./example";
 import { guard } from "decoders";
 
-const checker = guard(oneTypeDecoder)
-const data = { /* your data following the oneTypeDecoder definition */ }
+const checker = guard(oneTypeDecoder);
+const data = { /* your data following the oneTypeDecoder definition */ };
 const _ = checker(data); // if data is not following the oneTypeDecoder definition, this will throw an error
 ```
 
