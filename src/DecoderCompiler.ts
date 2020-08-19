@@ -55,7 +55,7 @@ class DecoderCompiler {
     const decoderInputStatement = ts.addSyntheticLeadingComment(
       this.decoderFactory.importStatement(),
       ts.SyntaxKind.SingleLineCommentTrivia,
-      " DO NOT EDIT - Generated using picnic-decoder-generator"
+      " DO NOT EDIT - Generated using Aegis"
     )
 
     return [decoderInputStatement, ...enumImportStatements, ...orderedDecoders]
