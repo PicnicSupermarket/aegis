@@ -18,7 +18,28 @@ Here are some steps to get you going:
 
 3) Run the decoder generator:
 
-`node ./lib/index.js generate --inputPath [INPUT_PATH] --outputFile [OUTPUT_FILE]` 
+`node ./lib/index.js generate --inputPath [INPUT_PATH] --outputFile [OUTPUT_FILE]`
+
+## Example
+
+Usage of the tool requires a single directory with the Typescript types you want to create decoders for (can be `export default` or `export`). Use this as your import path for the command shown above.
+
+An example of this can be found in the [`example`](./example) directory. The correct compilation command here would be:
+
+`node ./lib/index.js generate --inputPath ./example --outputFile example.ts`
+
+After running this command, you will be greeted with an `example.ts` file in the root of this repository, containing the generated decoders.
+
+To use the decoder, you must create a guard using the `decoders` package as shown below:
+
+```ts
+import { oneTypeDecoder } from "./example";
+import { guard } from "decoders";
+
+const checker = guard(oneTypeDecoder);
+const data = { /* your data following the oneTypeDecoder definition */ };
+const _ = checker(data); // if data is not following the oneTypeDecoder definition, this will throw an error
+```
 
 ## Contributing
 
